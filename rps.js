@@ -50,9 +50,51 @@ function game(){
     console.log(`User selects ${playerSelection}`);
     console.log(`Computer selects ${computerSelection}`);
     let roundResult = playRound(computerSelection, playerSelection);
-    console.log(roundResult);
-    console.log(playerScore);
-    console.log(computerScore);
+    alert(roundResult);
+    // console.log(playerScore);
+    // console.log(computerScore);
+
+    // Round 2
+    playerSelection = prompt('Make your selection', 'Rock');
+    playerSelection = getUserChoice(playerSelection);
+    computerSelection = getComputerChoice();
+    console.log(`User selects ${playerSelection}`);
+    console.log(`Computer selects ${computerSelection}`);
+    roundResult = playRound(computerSelection, playerSelection);
+    alert(roundResult);
+
+    // Round 3
+    playerSelection = prompt('Make your selection', 'Rock');
+    playerSelection = getUserChoice(playerSelection);
+    computerSelection = getComputerChoice();
+    console.log(`User selects ${playerSelection}`);
+    console.log(`Computer selects ${computerSelection}`);
+    roundResult = playRound(computerSelection, playerSelection);
+    alert(roundResult);
+    alert(playerScore);
+    alert(computerScore);
+
+    // Round 4
+    playerSelection = prompt('Make your selection', 'Rock');
+    playerSelection = getUserChoice(playerSelection);
+    computerSelection = getComputerChoice();
+    console.log(`User selects ${playerSelection}`);
+    console.log(`Computer selects ${computerSelection}`);
+    roundResult = playRound(computerSelection, playerSelection);
+    alert(roundResult);
+    alert(playerScore);
+    alert(computerScore);
+
+    // Round 5
+    playerSelection = prompt('Make your selection', 'Rock');
+    playerSelection = getUserChoice(playerSelection);
+    computerSelection = getComputerChoice();
+    console.log(`User selects ${playerSelection}`);
+    console.log(`Computer selects ${computerSelection}`);
+    roundResult = playRound(computerSelection, playerSelection);
+    alert(roundResult);
+    alert(playerScore);
+    alert(computerScore);
 }
 
 game();
